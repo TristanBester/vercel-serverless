@@ -8,6 +8,8 @@ packages = [{include = "vercel_serverless"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"
+fastapi = "^0.95.1"
+uvicorn = "^0.22.0"
 
 
 [build-system]
