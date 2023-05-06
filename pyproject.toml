@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "vercel-serverless"
+version = "0.1.0"
+description = ""
+authors = ["Tristan Bester <tristanbester@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vercel_serverless"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
