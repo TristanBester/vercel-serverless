@@ -14,7 +14,7 @@ class UpdateRequest(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "I am staging 2"}
 
 
 @app.get("/thing")
